@@ -1,0 +1,543 @@
+-- Don't Delete or Change Copyright Baby
+-- This cheat error or not working? Please coment i try fix error
+-- ./Yaelahkaaa 
+
+-- (IndoXploit CODERS TEAM)
+-- Script Version 1.2 
+-- (Don't change anything Or this script not working)
+print('Copyright Script by ./Yaelahkaaa')
+gg.alert('JANGAN GANTI COPYRIGHT Ya SAYANG :* ')
+gg.alert('Hargailah Karya orang lain kalau Karyamu ingin dihargai')
+
+if gg.isVisible(true) then 
+   gg.setVisible(false) 
+   end 
+   
+-- menu   
+::Mainmenu::
+menu = gg.choice({'1. Hero Menu Unlimited Damage + HP','2. Unlimited Mana + Damage','3. Unlimited Gold Game(Coming Soon)','4. Rank Mod(Coming Soon)','5. Ranked Mode Cheat(Work Tested)','6. Cheat error/bermasalah ? disini','7. Exit'},nil,'Cheat akan diUpdate bila ada Path baru atau Pembaruan Game jadi stay tune aja ^_^')
+if menu == 1 then goto hero end
+if menu == 2 then  goto mana end
+if menu == 3 then  end
+if menu == 4 then  goto rank end
+if menu == 5 then  goto ranked end
+if menu == 6 then goto error end
+if menu == 7 then goto exit end
+if menu == nil then end goto Mainmenu
+
+::mana::
+mana = gg.choice({'Zilong','Eudora','Layla','Moskov','Cyclops','Gord','Freya','Hayabusa'},nil,'Pilih hero')
+if mana == 1 then goto zilong1 end
+if mana == 2 then goto eudora1 end
+if mana == 3 then goto layla1 end
+if mana == 4 then goto moskov1 end
+if mana == 5 then goto cyclops1 end
+if mana == 6 then goto gord1 end
+if mana == 7 then goto freya1 end
+if mana == 8 then goto hayabusaa end
+if mana == nil then  end goto Mainmenu
+
+::zilong1::
+gg.searchNumber('123;405', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(41)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto error
+
+::cyclops1::
+gg.searchNumber('112;500', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto error
+
+::eudora1::
+gg.searchNumber('112;458', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(36)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :*')
+goto error
+
+::layla1::
+gg.searchNumber('118;424', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(19)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto error
+
+::moskov1::
+gg.searchNumber('117;420', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(11)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto error
+
+::gord1::
+gg.searchNumber('123;570', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(45)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto error
+
+::freya1::
+gg.searchNumber('112;462', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto error
+
+::hayabusaa::
+gg.searchNumber('112;479', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(38)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :*')
+goto error
+
+-- ranked mod
+::rank::
+rank = gg.choice({'Warrior','Silver','Master','GrandMaster','Epic','Legend','Mythic'},nil,'Select Rank')
+if rank == 1 then  end
+if rank == 2 then end
+if rank == 3 then  end
+if rank == 4 then  end
+if rank == 5 then  end
+if rank == 2 then  end
+if rank == 7 then  end
+if rank == nil then  end goto Mainmenu
+
+-- heromenu
+::hero::
+heromenu = gg.choice({'zilong','eudora','layla','moskov','cyclops','gord','freya','hayabusa','minotaur','fanny','rafaela','clint','bane','franco','akai','alucard','tigreal','nana','saber','balmond','miya','roger','aurora','sun','bruno','karina','lesley','helcrut','hylos','diggie','lancelot','odette','grock','irithel','harley','gatotkaca','vexana','lapulapu','hilda','jhonson','yisunsin','ruby','alpha','chou','kagura','natalia','lolita','alice','pharsa'},nil,'Pilih hero yang mau lu pake','./Yaelahkaaa')
+if heromenu == 1 then goto zilong end
+if heromenu == 2 then goto eudora end
+if heromenu == 3 then goto layla end
+if heromenu == 4 then goto moskov end
+if heromenu == 5 then goto cyclops end
+if heromenu == 6 then goto gord end
+if heromenu == 7 then goto freya end
+if heromenu == 8 then goto hayabusa end
+if heromenu == 9 then goto minotaur end
+if heromenu == 10 then goto layla end
+if heromenu == 11 then goto fanny end
+if heromenu == 12 then goto rafaela end
+if heromenu == 13 then goto clint end
+if heromenu == 14 then goto bane end
+if heromenu == 15 then goto franco end
+if heromenu == 12 then goto akai end
+if heromenu == 17 then goto alucard end
+if heromenu == 18 then goto tigreal end
+if heromenu == 19 then goto nana end
+if heromenu == 20 then goto saber end
+if heromenu == 21 then goto balmond end
+if heromenu == 22 then goto miya end
+if heromenu == 23 then goto roger end
+if heromenu == 24 then goto aurora end
+if heromenu == 25 then goto sun end
+if heromenu == 22 then goto bruno end
+if heromenu == 27 then goto karina end
+if heromenu == 28 then goto lesley end
+if heromenu == 29 then goto helcrut end
+if heromenu == 30 then goto hylos end
+if heromenu == 31 then goto diggie end
+if heromenu == 32 then goto lancelot end
+if heromenu == 33 then goto odette end
+if heromenu == 34 then goto grock end
+if heromenu == 35 then goto irithel end
+if heromenu == 32 then goto harley end
+if heromenu == 37 then goto gatotkaca end
+if heromenu == 38 then goto vexana end
+if heromenu == 39 then goto lapulapu end
+if heromenu == 40 then goto hilda end
+if heromenu == 41 then goto jhonson end
+if heromenu == 42 then goto yisunsin end
+if heromenu == 43 then goto ruby end
+if heromenu == 44 then goto alpha end
+if heromenu == 45 then goto chou end
+if heromenu == 42 then goto kagura end
+if heromenu == 47 then goto natalia end
+if heromenu == 48 then goto lolita end
+if heromenu == 49 then goto alice end
+if heromenu == 50 then goto pharsa end
+if heromenu == nil then end goto Mainmenu
+
+-- hero 
+::zilong::
+gg.searchNumber('123;2689', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::jhonson::
+gg.searchNumber('112;2809', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(7)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::eudora::
+gg.searchNumber('112;2524', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(4)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :*')
+goto Mainmenu
+
+::layla::
+gg.searchNumber('118;2500', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::moskov::
+gg.searchNumber('117;2455', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::pharsa::
+gg.searchNumber('109;2421', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::zhask::
+gg.searchNumber('107;2401', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::karrie::
+gg.searchNumber('112;2498', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::estes::
+gg.searchNumber('120;2221;545', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::cyclops::
+gg.searchNumber('112;2521', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::gord::
+gg.searchNumber('110;2478', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::hayabusa::
+gg.searchNumber('114;2279', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::freya::
+gg.searchNumber('114;2279', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::minotaur::
+gg.searchNumber('123;2759', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::fanny::
+gg.searchNumber('122;2522', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::rafaela::
+gg.searchNumber('117;2441', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :*')
+goto Mainmenu
+
+::clint::
+gg.searchNumber('115;2530', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::bane::
+gg.searchNumber('117;2759', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(4)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::franco::
+gg.searchNumber('112;2709', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::akai::
+gg.searchNumber('115;2729', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::alucard::
+gg.searchNumber('123;2821', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::nana::
+gg.searchNumber('115;2501', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::tigreal::
+gg.searchNumber('112;2890', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::saber::
+gg.searchNumber('118;2599', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::balmond::
+gg.searchNumber('119;2792', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::miya::
+gg.searchNumber('117;2524', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::roger::
+gg.searchNumber('120;2580', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::aurora::
+gg.searchNumber('110;2501', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::sun::
+gg.searchNumber('114;2758', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::bruno::
+gg.searchNumber('112;2522', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::karina::
+gg.searchNumber('121;2233', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::lesley::
+gg.searchNumber('115;2490', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::helcrut::
+gg.searchNumber('121;2599', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::hylos::
+gg.searchNumber('105;3309', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::diggie::
+gg.searchNumber('115;2351', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::lancelot::
+gg.searchNumber('124;2549', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :*')
+goto Mainmenu
+
+::odette::
+gg.searchNumber('105;2491', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::grock::
+gg.searchNumber('135;2819', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::irithel::
+gg.searchNumber('110;2540', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::harley::
+gg.searchNumber('114;2501', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::gatotkaca::
+gg.searchNumber('120;2709', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::vexana::
+gg.searchNumber('112;2481', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::lapulapu::
+gg.searchNumber('119;2238', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::hilda::
+gg.searchNumber('123;2909', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::yisunsin::
+gg.searchNumber('112;2520', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::ruby::
+gg.searchNumber('114;2729', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::alpha::
+gg.searchNumber('121;2242', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::chou::
+gg.searchNumber('121;2708', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::kagura::
+gg.searchNumber('118;2552', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::natalia::
+gg.searchNumber('121;2589', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::lolita::
+gg.searchNumber('115;2279', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::alice::
+gg.searchNumber('114;2573;493', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)print('Replaced: ', gg.editAll('999999', gg.TYPE_DWORD))
+
+
+
+
+-- end
+
+gg.toast('Cheat Active Baby :* ')
+goto Mainmenu
+
+::ranked::
+gg.alert('[Jika Anda ingin menggunakan cheat dalam mode Ranked, setelah memasuki game Anda harus cepat dengan cepat menghancurkan turret.]')
+goto Mainmenu
+
+::error::
+gg.alert('Contact me : gresik6etar@gmail.com / Fb : Borlin Haibara')
+
+
+::exit::
+  gg.toast('Good bye Baby !')
+  

@@ -1,0 +1,159 @@
+gg.toast('Lua Script Crisis Action v1.0.0')
+print('Cheat Crisis Action Script v1.0.0') 
+--Game guardian detection
+if gg.BUILD < 5511 then 
+print('You need latest version of GameGuardian to run this script. Minimum GG v.8.30.0.') 
+goto update
+end 
+if gg.isVisible(true) then 
+   gg.setVisible(false) 
+   end 
+gg.clearResults()
+goto START
+::START::
+menu = gg.choice({'People color (white)','Escape to land','Improved perspective (with the use of escape)','High jump','Acceleration × 1.5','Infinite bullets (5 rounds of ammunition) ','Eight times speed (can not open with 1.5)','m4a1 spike','Super Spider-Man (climbing wall)','Dragon exploration cloud hand (separated from the air)','ak spike','mp5 spike','Knife entertainment fun to share','www.xiaodao.la','taikkyithar'},nil,'Play With another account,Banned!')
+if menu == 1 then goto JunTuanTiao end
+if menu == 2 then goto LanSi end
+if menu == 3 then goto LangRen end
+if menu == 4 then goto oneittt end
+if menu == 5 then goto sgonehit end
+if menu == 6 then goto sgonehil end
+if menu == 7 then goto babei end
+if menu == 8 then goto m4a1 end
+if menu == 9 then goto papa end
+if menu == 10 then goto xianzhushou end
+if menu == 11 then goto ak end
+if menu == 12 then goto mp5 end
+if menu == nil then print('Error') end 
+
+goto noselect
+
+
+::JunTuanTiao::
+gg.clearResults()
+gg.searchNumber('2;1.35;1;1;1;1;3.5::50', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('3.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('1000', gg.TYPE_FLOAT)
+gg.toast('taikkyithar')
+goto sdone
+
+::LanSi::---
+gg.clearResults()
+gg.searchNumber('1;0.01;0.2;0.3::33', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('2.6', gg.TYPE_FLOAT)
+gg.toast('taikkyithar')
+goto sdone
+
+::LangRen::
+gg.clearResults()
+gg.searchNumber('1.65000021458', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1.65000021458', gg.TYPE_cFLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('4', gg.TYPE_FLOAT)
+gg.toast('taikkyithar')
+goto sdone
+
+::oneittt::
+gg.clearResults()
+gg.searchNumber('97D;15;-10;-5::50', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('15;-10;-5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('8', gg.TYPE_FLOAT)
+gg.toast('taikkyithar')
+goto sdone
+
+::sgonehit::
+gg.clearResults()
+gg.searchNumber('1;-1;100000::40', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('1.5', gg.TYPE_FLOAT)
+gg.toast('taikkyithar')
+goto sdone
+
+::sgonehil::
+gg.clearResults()
+gg.searchNumber('41D;30D;25D::193', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('30', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('666', gg.TYPE_DWORD)
+gg.toast('taikkyithar')
+goto sdone
+
+
+::babei::
+gg.clearResults()
+gg.searchNumber('1;-1;100000::40', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(100)
+gg.editAll('8', gg.TYPE_FLOAT)
+gg.toast('taikkyithar')
+goto sdone
+
+::m4a1::
+gg.clearResults()
+gg.searchNumber('42D;41D;40D::28', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('41', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll('888', gg.TYPE_DWORD)
+gg.toast('taikkyithar')
+goto sdone
+
+::papa::
+gg.clearResults()
+gg.searchNumber('1;0.01;0.2;0.3::40', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('0.2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('20', gg.TYPE_FLOAT)
+gg.toast('taikkyithar')
+goto sdone
+
+::xianzhushou::
+gg.clearResults()
+gg.searchNumber('0.01999999955;2::13', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('5', gg.TYPE_FLOAT)
+gg.toast('taikkyithar')
+goto sdone
+
+::ak::
+gg.clearResults()
+gg.searchNumber('49;48;47:28', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('48', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('999', gg.TYPE_DWORD)
+gg.toast('taikkyithar')
+goto sdone
+
+::mp5::
+gg.clearResults()
+gg.searchNumber('36;35;34:28', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('35', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('999', gg.TYPE_DWORD)
+gg.toast('taikkyithar')
+goto sdone
+
+::sdone:: 
+print('taikkyithar')
+gg.toast('taikkyithar')
+os.exit()
+
+
+::noselect::
+print('You Not Select Anything')
+gg.toast('You Not Select Anything')
+
+
+::update::
+print('UPDATE YOUR GAME GUARDIAN')
+gg.toast('GG NOT SUPORT')
+
+
+
+
